@@ -27,7 +27,7 @@ function processaTexto(texto) {
     return frequencias[p2] - frequencias[p1];
   }
 
-  return ordenadas.slice(0, 10);
+  return ordenadas;//.slice(0, 10);
 }
 
 function contaFrequencias(palavras) {
@@ -47,7 +47,7 @@ function contaFrequencias(palavras) {
 }
 
 function tiraPalavrasRuins(palavras) {
-    const PALAVRAS_RUINS = new Set(["para", "uma", "nós"]);
+    const PALAVRAS_RUINS = new Set([]);//Set(["para", "uma", "nós"]);
   
     const palavrasBoas = [];
   
