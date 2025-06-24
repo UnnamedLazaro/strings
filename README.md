@@ -1,2 +1,2 @@
 # strings
-there are no description
+There are no description given.
